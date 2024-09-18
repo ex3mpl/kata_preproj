@@ -68,7 +68,7 @@ public class UserDaoJDBCImpl implements UserDao {
                 users.add(user);
             }
         } catch (Exception e) {
-            e.printStackTrace();
+            e.getStackTrace();
         }
         return users;
     }
