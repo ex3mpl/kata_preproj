@@ -29,6 +29,7 @@ public class User {
     private Byte age;
 
     public User() {
+        // пустой конструктор, т. к. Hibernate использует Reflection API напрямую полями (или реализацией через сеттеры)
     }
 
     public User(String name, String lastName, Byte age) {
