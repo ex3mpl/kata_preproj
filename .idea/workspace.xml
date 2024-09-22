@@ -5,18 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2403c831-a366-4e70-b897-4019a7c7f56b" name="Changes" comment="commit changes:&#10;- deleted global Dao class connection, turned to connection in methods;&#10;- methods in Dao that change values in db or delete them was wrapped with transactions;&#10;- new plugins - slf4j and logback - for more detailed exception handling and error logging (logback.xml in resources for settings);">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7edd6dca-c05e-4f3b-8fb2-78951323f84f.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7edd6dca-c05e-4f3b-8fb2-78951323f84f/storage_v2/_src_/schema/userdao.5_869w.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TaskJDBC.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jm/task/core/jdbc/dao/UserDaoJDBCImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jm/task/core/jdbc/dao/UserDaoJDBCImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,8 +58,9 @@
     "JUnit.UserServiceTest.executor": "Run",
     "Maven.TaskJDBC [clean].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "Merging master",
+    "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -130,6 +121,7 @@
       <workItem from="1726752410133" duration="215000" />
       <workItem from="1726752656119" duration="3922000" />
       <workItem from="1726852974072" duration="309000" />
+      <workItem from="1727028121178" duration="1419000" />
     </task>
     <task id="LOCAL-00001" summary="kata pre project task 1.1.4">
       <option name="closed" value="true" />
@@ -179,7 +171,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726759927510</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="commit changes:&#10;- deleted global Dao class connection, turned to connection in methods;&#10;- methods in Dao that change values in db or delete them was wrapped with transactions;&#10;- new plugins - slf4j and logback - for more detailed exception handling and error logging (logback.xml in resources for settings);">
+      <option name="closed" value="true" />
+      <created>1727028230076</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1727028230076</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,6 +210,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="kata pre project task 1.1.4" />
-    <option name="LAST_COMMIT_MESSAGE" value="kata pre project task 1.1.4" />
+    <MESSAGE value="commit changes:&#10;- deleted global Dao class connection, turned to connection in methods;&#10;- methods in Dao that change values in db or delete them was wrapped with transactions;&#10;- new plugins - slf4j and logback - for more detailed exception handling and error logging (logback.xml in resources for settings);" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit changes:&#10;- deleted global Dao class connection, turned to connection in methods;&#10;- methods in Dao that change values in db or delete them was wrapped with transactions;&#10;- new plugins - slf4j and logback - for more detailed exception handling and error logging (logback.xml in resources for settings);" />
   </component>
 </project>
